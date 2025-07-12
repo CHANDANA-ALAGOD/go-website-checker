@@ -1,5 +1,4 @@
 package main
-
 import 
 (
 	"fmt"
@@ -8,7 +7,6 @@ import
 
 func main() {
 	resp, err := http.Get("https://google.com")
-
 	if err != nil {
 		fmt.Println("Could not reach the website.")
 		return
